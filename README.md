@@ -1,48 +1,31 @@
 # Exploratory-Data-analytics-record-and-projects-MS-Excel-
 
 **Anthony Christopher P** | BCA Data Analytics | St. Joseph's University, Bengaluru
+BCA Data Analytics, St. Joseph's University, Bengaluru | 2023–2024
 
-This repository contains two data analysis projects: an Excel practical record and a Python data visualization project on Spotify streaming data.
+## About
 
-## 1. Exploratory Data Analysis using Excel (BCADA1P2)
+This is my practical record for the 1st semester Data Analytics lab. It has 10 assignments done in Microsoft Excel, each with the given data, the steps followed, the results and a short summary.
 
-A practical record of 10 assignments, each with data, steps and charts:
+## What I did
 
-- Frequency, relative frequency, bar and pie charts, pivot tables (truck sales)
-- Bins and histograms (customer waiting time)
-- Scatter plots (advertising vs sales)
-- Mean, median, mode, variance and standard deviation
-- Variability and box-and-whisker plots (height and weight)
-- Random number generation (binomial and normal distributions)
-- Probability, expected value and standard deviation
-- Correlation (height, weight and heart data)
+1. **Truck sales:** Found the frequency and relative frequency of each truck model using `UNIQUE`, `COUNTIF` and count/total. Plotted bar and pie charts and built a pivot table. Ford F-Series was the top seller (31%).
+2. **Customer waiting time:** Created bins, calculated frequency and relative frequency, and plotted a histogram using formulas, the Data Analysis ToolPak and a pivot table.
+3. **Advertising and sales:** Plotted a scatter graph to see how sales changed with advertising.
+4. **Daily temperatures:** Calculated mean, median, mode, variance and standard deviation using functions and the ToolPak.
+5. **Student scores:** Found variance and standard deviation, including data with missing values.
+6. **Height and weight:** Calculated quartiles, IQR and outlier limits, and plotted box-and-whisker graphs and histograms.
+7. **Random numbers:** Used `RAND`, `RANDBETWEEN` and `RANDARRAY`, then generated normal and binomial distribution data with the ToolPak.
+8. **Customer waiting time:** Further analysis of the waiting time data.
+9. **Daily demand:** Found probabilities, expected demand (about 11.49) and standard deviation (about 6.21) to help decide daily stock.
+10. **Correlation:** Applied Karl Pearson's correlation to height and weight data and to heart patient data.
 
-## 2. Spotify Streaming Visualization (Python)
+## Skills
 
-Analysis of 20,718 tracks and 28 columns (audio features, YouTube views, likes, streams).
+Data summarizing, charts, pivot tables, descriptive statistics, probability and correlation in Excel.
 
-**Steps:** data inspection, cleaning (duplicates, missing values, text and numeric formatting), outlier detection with box plots, and group-by analysis with charts:
+## File
 
-- Top 10 artists by total streams (bar chart)
-- Artist share of total views (pie chart)
-- Channels by likes (bubble chart)
+`231BCADA22_PRACTICAL_RECORD_DATA_ANALYSIS.docx` – the complete record.
 
-**Tools:** Python, pandas, matplotlib, seaborn
-
-## Files
-
-| File | Description |
-|---|---|
-| `Python_Project.ipynb` | Notebook with outputs and charts |
-| `Python_Project.py` | Same code as a script |
-| `Spotify_streaming_optimized.csv` | Dataset (video descriptions trimmed to 1,300 characters to fit GitHub's limit) |
-| Excel practical record (`.docx`) | Complete record of all Excel assignments |
-
-## How to run
-
-```bash
-pip install pandas matplotlib seaborn
-python Python_Project.py
-```
-
-Keep the CSV in the same folder as the script.
+Two things to check before you upload:
